@@ -1,0 +1,7 @@
+In a Binary Search Tree (BST), the average time complexities for these operations are logarithmic, specifically O(log n), where n is the number of nodes in the tree. This logarithmic time complexity arises because with each operation, the search space is reduced by half on average, leading to a tree traversal depth proportional to the logarithm of the number of nodes.
+
+Inserting the value n: When inserting a value into a BST, the tree is traversed from the root downwards until a suitable position is found for the new node. Since at each level, the search space is halved (assuming a balanced tree), the average time complexity is O(log n).
+
+Removing the node with the value n: Removing a node from a BST also involves traversing the tree to find the node to be removed. Once found, the node is either replaced by its predecessor or successor in the BST, or if it's a leaf node or has only one child, it's removed directly. Again, due to the halving of the search space at each level, the average time complexity for removal is O(log n).
+
+Searching for a node in a BST of size n: Searching for a node involves traversing the tree from the root downwards until the target node is found or until a leaf node is reached. Similar to insertion and removal, this traversal reduces the search space by half at each level, leading to an average time complexity of O(log n).
