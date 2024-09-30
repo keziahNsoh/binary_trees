@@ -1,0 +1,15 @@
+{
+  "name": "0x00-ES6_basic",
+  "version": "1.0.0",
+  "description": "ALX Frontend JavaScript - ES6 Basics",
+  "main": "0-constants.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node 0-main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
